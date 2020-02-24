@@ -1,21 +1,22 @@
 <!DOCTYPE html>
+
 <head>
   <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
-  <body>
-    <div>
-      <p>This is a sentence</p>
-      <p class="super"> Here's another one </p>
-      <h4 class="super"> Don't forget this one! </h4>
-    </div>
 
-    <script src="js/jquery-3.1.1.min.js"></script>
+<body>
+  <div>
+    <p>This is a sentence</p>
+    <p class="jigger"> Here's another one </p>
+    <h4 id="jigger"> Don't forget this one! </h4>
+  </div>
 
-    <script>
+  <script src="js/jquery-3.1.1.min.js"></script>
 
-      $("p").hide();
+  <script>
+    $(".jigger, #jigger").addClass("colorful timestwo");
+  </script>
 
-    </script>
+</body>
 
-  </body>
 </html>
