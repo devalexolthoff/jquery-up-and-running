@@ -10,5 +10,4 @@ $("#target").on("click", function () {
   //$("#box").fadeOut()
   // $("#box").fadeTo(1000, 0.5)
   // $("#box").fadeToggle(1000);
-  $("#box").
 });
