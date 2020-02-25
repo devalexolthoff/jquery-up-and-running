@@ -1,18 +1,22 @@
-#big{
+#big {
   font-size: 2em;
   font-weight: bold
 }
 
-#small{
+#small {
   font-size: 1em;
 }
 
-.pretty{
+.pretty {
   color: pink;
   font-style: italic;
 }
 
-.border{
+.border {
   border-style: dashed;
   border-color: green;
+}
+
+.huge {
+  width: 100%;
 }
