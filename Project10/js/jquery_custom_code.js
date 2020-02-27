@@ -20,5 +20,9 @@ $(function () {
     $(":header");
     // Things that don't have something
     $("li:not('.important'");
-    $("div:not(:has(:header))")
+    $("div:not(:has(:header))");
+
+    // Jquery has lots of methods for dom manipulation. 
+    // They can be looked up. I have generally concluded
+    // that JQuery should be avoided when unecessary
 });
